@@ -1,0 +1,17 @@
+A aplicação consiste numa rede social de bandas de musica.
+
+A aplicação é composta por:
+Sistema de Login
+Página de feed:
+	- o utilizador vê todas as bandas que 	existem na plataforma.
+	- Ao clicar em cada banda vai ser 	direcionado para o mural da banda onde 	poderá ver a sua informação e poderá 	comentar.
+Perfil de utilizador:
+	- editar informação do utilizador.
+Criar banda:
+	- O utilizador adiciona a(s) sua(s) bandas.
+Gerir bandas:
+	- O utilizador pode editar / apagar as suas 	bandas.
+Logout: 
+	- Termina a sessão do utilizador
+
+

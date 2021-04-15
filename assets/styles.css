@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../assets/fonts/Helvetica.ttf);
+  }
+
+  @font-face {
+    font-family: Helvetica_Bold;
+    src: url(../assets/fonts/Helvetica-Bold.ttf);
+  }
+
+*{
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex  !important;
+    flex-direction: row;
+    padding: 30px;
+}
+
+nav{
+    font-size: 1.2em;
+}
+nav li{
+    padding: 5px;
+}
+
+
+
+
+.hbutton{
+    margin-left: auto;
+}
+.himg img{
+    height: 100px;
+}
+
+.logout{
+    width: 50%;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+.menu{
+    align-self: flex-start;
+    width:20%;
+    background-color: black;
+    height: 100vh;
+}
+
+.menu li{
+    padding: 10px ;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.content{
+    width: 100%;
+    padding: 30px;
+}
+.centrar{
+    margin:0 auto;
+}
+.s2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header_temp{
+    border-bottom:1px solid black;
+    width:100%;
+    padding-left: 40px;
+}
+/* MURAL BANDA */ 
+#intro{
+     display: flex;
+     width: 100%;
+     padding: 0 30px;
+     border-bottom: 1px solid black;
+}
+
+.ifoto{
+    align-self: center;
+    padding-top: 5px;
+    height: 160px;
+    width: 160px;
+    background-size: cover !important;
+    border-radius: 50%;
+    background-position: center !important;
+
+}
+
+.iname{
+    margin:0 auto;
+    align-self: center;
+    font-family: Helvetica_Bold !important;
+    font-size: 2em;
+}
+
+#artistas{
+    text-align: center;
+    border-left: 1px dotted black;
+    padding-top: 15px;
+}
+
+#artistas ul{
+    text-align: start;
+    list-style: initial;
+}
+#artistas ul li{
+    text-decoration: none;
+
+}
+
+#msgBox{
+    margin-top: 60px;
+}
+
+#msgBox ul li{
+    display: flex;
+    margin-top: 40px;
+}
+
+.commentList{
+    height: 350px;
+    overflow: auto;
+}
+
+.commenterImage{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: left center !important;
+}
+
+
+.commentText{
+    margin-left: 20px;
+    align-self: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black I !important;
+    font-family: Helvetica_Bold;
+}
+
+
+/* Dados do perfil */
+
+.dadosh{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 40px;
+}
+
+.dadosh button{
+    margin:0 auto;
+}
+.texto{
+    width: 50%;
+}
+.containerI{
+    display: flex;
+    flex-direction: row;
+}
+
+.dadosI{
+    background-color: aqua;
+}
+
+
+/* Feed */
+.containerF{
+    width: 100%;
+    display: flex;
+}
+
+.feedL{
+    margin-top: 60px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feedL li{
+    padding: 20px;
+    text-align: center;
+}
+
+.feedL li a{
+    text-decoration: none;
+    color: black;
+}
+
+.feedL li .txt{
+    font-size: 1.2em;
+    font-family: Helvetica_Bold;
+    padding:5px;
+}
+
+.feedL li img{
+    height:90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.feedImg{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+
+.navbar-toggler {
+    margin-right: auto;
+    background-color: aqua;
+}
+
+
+
